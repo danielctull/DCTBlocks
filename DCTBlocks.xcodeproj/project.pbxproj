@@ -10,6 +10,7 @@
 		242F9FE415C9704900EA26BE /* UIControl+DCTBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 242F9FE315C9704900EA26BE /* UIControl+DCTBlocks.m */; };
 		242F9FE815C9716100EA26BE /* NSObject+_DCTBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 242F9FE715C9716100EA26BE /* NSObject+_DCTBlocks.m */; };
 		242FA03C15C974CC00EA26BE /* UIControl+DCTBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 242F9FE215C9704900EA26BE /* UIControl+DCTBlocks.h */; };
+		242FA03F15C9750400EA26BE /* UIGestureRecognizer+DCTBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 242FA03E15C9750400EA26BE /* UIGestureRecognizer+DCTBlocks.m */; };
 		24C3F58815C96F0200A95886 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C3F58715C96F0200A95886 /* Foundation.framework */; };
 		24C3F58D15C96F0200A95886 /* DCTBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24C3F58C15C96F0200A95886 /* DCTBlocks.h */; };
 		24C3F58F15C96F0200A95886 /* DCTBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C3F58E15C96F0200A95886 /* DCTBlocks.m */; };
@@ -35,6 +36,8 @@
 		242F9FE315C9704900EA26BE /* UIControl+DCTBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+DCTBlocks.m"; sourceTree = "<group>"; };
 		242F9FE615C9716100EA26BE /* NSObject+_DCTBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+_DCTBlocks.h"; sourceTree = "<group>"; };
 		242F9FE715C9716100EA26BE /* NSObject+_DCTBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+_DCTBlocks.m"; sourceTree = "<group>"; };
+		242FA03D15C9750400EA26BE /* UIGestureRecognizer+DCTBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+DCTBlocks.h"; sourceTree = "<group>"; };
+		242FA03E15C9750400EA26BE /* UIGestureRecognizer+DCTBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+DCTBlocks.m"; sourceTree = "<group>"; };
 		24C3F58415C96F0200A95886 /* libDCTBlocks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDCTBlocks.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C3F58715C96F0200A95886 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24C3F58B15C96F0200A95886 /* DCTBlocks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTBlocks-Prefix.pch"; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				24C3F58E15C96F0200A95886 /* DCTBlocks.m */,
 				242F9FE215C9704900EA26BE /* UIControl+DCTBlocks.h */,
 				242F9FE315C9704900EA26BE /* UIControl+DCTBlocks.m */,
+				242FA03D15C9750400EA26BE /* UIGestureRecognizer+DCTBlocks.h */,
+				242FA03E15C9750400EA26BE /* UIGestureRecognizer+DCTBlocks.m */,
 				24C3F59515C96F5400A95886 /* _DCTBlockTargetActionHandler.h */,
 				24C3F59615C96F5400A95886 /* _DCTBlockTargetActionHandler.m */,
 				242F9FE615C9716100EA26BE /* NSObject+_DCTBlocks.h */,
@@ -160,6 +165,7 @@
 				24C3F59715C96F5400A95886 /* _DCTBlockTargetActionHandler.m in Sources */,
 				242F9FE415C9704900EA26BE /* UIControl+DCTBlocks.m in Sources */,
 				242F9FE815C9716100EA26BE /* NSObject+_DCTBlocks.m in Sources */,
+				242FA03F15C9750400EA26BE /* UIGestureRecognizer+DCTBlocks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
