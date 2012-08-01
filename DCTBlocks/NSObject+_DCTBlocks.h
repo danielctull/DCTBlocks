@@ -1,5 +1,5 @@
 //
-//  DCTBlocks.h
+//  NSObject+_DCTBlocks.h
 //  DCTBlocks
 //
 //  Created by Daniel Tull on 01.08.2012.
@@ -7,8 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "UIControl+DCTBlocks.h"
 
-@interface DCTBlocks : NSObject
+@interface NSObject (_DCTBlocks)
+
+- (NSMutableArray *)dctBlocks_handlers;
 
 @end

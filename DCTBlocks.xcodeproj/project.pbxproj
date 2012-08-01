@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		242F9FE415C9704900EA26BE /* UIControl+DCTBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 242F9FE315C9704900EA26BE /* UIControl+DCTBlocks.m */; };
+		242F9FE815C9716100EA26BE /* NSObject+_DCTBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 242F9FE715C9716100EA26BE /* NSObject+_DCTBlocks.m */; };
+		242FA03C15C974CC00EA26BE /* UIControl+DCTBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 242F9FE215C9704900EA26BE /* UIControl+DCTBlocks.h */; };
 		24C3F58815C96F0200A95886 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24C3F58715C96F0200A95886 /* Foundation.framework */; };
 		24C3F58D15C96F0200A95886 /* DCTBlocks.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 24C3F58C15C96F0200A95886 /* DCTBlocks.h */; };
 		24C3F58F15C96F0200A95886 /* DCTBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C3F58E15C96F0200A95886 /* DCTBlocks.m */; };
+		24C3F59715C96F5400A95886 /* _DCTBlockTargetActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 24C3F59615C96F5400A95886 /* _DCTBlockTargetActionHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,17 +24,24 @@
 			dstSubfolderSpec = 16;
 			files = (
 				24C3F58D15C96F0200A95886 /* DCTBlocks.h in CopyFiles */,
+				242FA03C15C974CC00EA26BE /* UIControl+DCTBlocks.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		242F9FE215C9704900EA26BE /* UIControl+DCTBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+DCTBlocks.h"; sourceTree = "<group>"; };
+		242F9FE315C9704900EA26BE /* UIControl+DCTBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+DCTBlocks.m"; sourceTree = "<group>"; };
+		242F9FE615C9716100EA26BE /* NSObject+_DCTBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+_DCTBlocks.h"; sourceTree = "<group>"; };
+		242F9FE715C9716100EA26BE /* NSObject+_DCTBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+_DCTBlocks.m"; sourceTree = "<group>"; };
 		24C3F58415C96F0200A95886 /* libDCTBlocks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDCTBlocks.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C3F58715C96F0200A95886 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		24C3F58B15C96F0200A95886 /* DCTBlocks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTBlocks-Prefix.pch"; sourceTree = "<group>"; };
 		24C3F58C15C96F0200A95886 /* DCTBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTBlocks.h; sourceTree = "<group>"; };
 		24C3F58E15C96F0200A95886 /* DCTBlocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTBlocks.m; sourceTree = "<group>"; };
+		24C3F59515C96F5400A95886 /* _DCTBlockTargetActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DCTBlockTargetActionHandler.h; sourceTree = "<group>"; };
+		24C3F59615C96F5400A95886 /* _DCTBlockTargetActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DCTBlockTargetActionHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +86,12 @@
 			children = (
 				24C3F58C15C96F0200A95886 /* DCTBlocks.h */,
 				24C3F58E15C96F0200A95886 /* DCTBlocks.m */,
+				242F9FE215C9704900EA26BE /* UIControl+DCTBlocks.h */,
+				242F9FE315C9704900EA26BE /* UIControl+DCTBlocks.m */,
+				24C3F59515C96F5400A95886 /* _DCTBlockTargetActionHandler.h */,
+				24C3F59615C96F5400A95886 /* _DCTBlockTargetActionHandler.m */,
+				242F9FE615C9716100EA26BE /* NSObject+_DCTBlocks.h */,
+				242F9FE715C9716100EA26BE /* NSObject+_DCTBlocks.m */,
 				24C3F58A15C96F0200A95886 /* Supporting Files */,
 			);
 			path = DCTBlocks;
@@ -140,6 +157,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				24C3F58F15C96F0200A95886 /* DCTBlocks.m in Sources */,
+				24C3F59715C96F5400A95886 /* _DCTBlockTargetActionHandler.m in Sources */,
+				242F9FE415C9704900EA26BE /* UIControl+DCTBlocks.m in Sources */,
+				242F9FE815C9716100EA26BE /* NSObject+_DCTBlocks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +253,7 @@
 				24C3F59415C96F0200A95886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
